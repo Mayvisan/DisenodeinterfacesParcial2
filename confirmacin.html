@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./confirmacin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="confirmacin">
+      <section class="rental-process">
+        <div class="rental-process-child"></div>
+        <div class="vehicle-choice">
+          <b class="usted-va-a"
+            >Usted va a proceder a la reserva y alquiler de este auto,
+            ¿proceder?</b
+          >
+          <div class="car-image">
+            <img
+              class="image-9-icon3"
+              loading="lazy"
+              alt=""
+              src="./public/image-91@2x.png"
+            />
+          </div>
+          <div class="car-model">
+            <div class="equinox-ev3">EQUINOX EV</div>
+          </div>
+        </div>
+        <div class="action-buttons">
+          <div class="button-area">
+            <div class="aceptar" id="popupaceptarContainer">
+              <div class="button-shapes"></div>
+              <div class="aceptar1">Aceptar</div>
+            </div>
+            <div class="cancelar" id="popupcancelarContainer">
+              <div class="cancelar-child"></div>
+              <div class="cancelar1">Cancelar</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var popupaceptarContainer = document.getElementById("popupaceptarContainer");
+      if (popupaceptarContainer) {
+        popupaceptarContainer.addEventListener("click", function (e) {
+          window.location.href = "./main.html";
+        });
+      }
+      
+      var popupcancelarContainer = document.getElementById("popupcancelarContainer");
+      if (popupcancelarContainer) {
+        popupcancelarContainer.addEventListener("click", function (e) {
+          window.location.href = "./main.html";
+        });
+      }
+      </script>
+  </body>
+</html>

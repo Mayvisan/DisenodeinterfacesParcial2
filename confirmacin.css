@@ -1,0 +1,170 @@
+.rental-process-child {
+  width: 339px;
+  height: 185px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-dimgray-100);
+  display: none;
+  max-width: 100%;
+}
+.usted-va-a {
+  align-self: stretch;
+  position: relative;
+  line-height: 123.34%;
+  z-index: 1;
+}
+.image-9-icon3 {
+  height: 54px;
+  width: 106px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.car-image {
+  width: 306px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.equinox-ev3 {
+  position: relative;
+  line-height: 123.59%;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 1;
+}
+.car-model,
+.vehicle-choice {
+  display: flex;
+  align-items: flex-start;
+}
+.car-model {
+  width: 305px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+}
+.vehicle-choice {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.button-shapes {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkgray);
+}
+.aceptar,
+.aceptar1 {
+  position: relative;
+  z-index: 1;
+}
+.aceptar1 {
+  line-height: 123.59%;
+  display: inline-block;
+  min-width: 53px;
+}
+.aceptar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-2xs) var(--padding-11xs);
+  cursor: pointer;
+}
+.cancelar-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkgray);
+}
+.cancelar,
+.cancelar1 {
+  position: relative;
+  z-index: 1;
+}
+.cancelar1 {
+  line-height: 123.59%;
+  display: inline-block;
+  min-width: 59px;
+}
+.cancelar {
+  padding: var(--padding-11xs) var(--padding-5xs) var(--padding-12xs);
+  cursor: pointer;
+}
+.action-buttons,
+.button-area,
+.cancelar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button-area {
+  gap: 13px;
+}
+.action-buttons {
+  padding: 0 70px;
+  text-align: left;
+  color: var(--color-black);
+}
+.confirmacin,
+.rental-process {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.rental-process {
+  width: 339px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-dimgray-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-xs)
+    var(--padding-2xs);
+  gap: var(--gap-3xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h9-size);
+  color: var(--color-oldlace);
+  font-family: var(--h7);
+}
+.confirmacin {
+  width: 424px;
+  height: 216px;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15px var(--padding-18xl) var(--padding-base);
+  line-height: normal;
+  letter-spacing: normal;
+  max-width: 90%;
+  max-height: 90%;
+}
+@media screen and (max-width: 305px) {
+  .action-buttons {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
